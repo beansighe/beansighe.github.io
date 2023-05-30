@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="ContactMe.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Contact Me</h1>
+      <!-- You can reuse the form you created in HW 2 -->
+      <form class="form" action="ContactMe.html">
+        <h2 class="form-h2">Personal Details</h2>
+        <p class="form-p">Fill up the items in the form below.</p>
+        <label for="name" class="form-label">Name:</label>
+        <input class="form-input" type="text" id="name" name="name" required />
+        <br />
+        <br />
+        <label class="form-label" for="email">Email:</label>
+        <input
+          class="form-input"
+          type="email"
+          id="email"
+          name="email"
+          required
+        />
+        <fieldset class="pronouns">
+          <legend class="pronouns-legend">Pronouns</legend>
+          <input
+            class="pronoun-input"
+            type="radio"
+            id="she"
+            name="pronoun"
+            value="she/her"
+            required
+          />
+          <label class="pronoun-label" for="she">She/her</label>
+          <br />
+          <input
+            class="pronoun-input"
+            type="radio"
+            id="he"
+            name="pronoun"
+            value="he/him"
+            required
+          />
+          <label class="pronoun-label" for="he">He/him</label>
+          <br />
+          <input
+            class="pronoun-input"
+            type="radio"
+            id="they"
+            name="pronoun"
+            value="they/them"
+            required
+          />
+          <label class="pronoun-label" for="they">They/them</label>
+          <br />
+          <input
+            class="pronoun-input"
+            type="radio"
+            id="none"
+            name="pronoun"
+            value="prefer not to say"
+            required
+          />
+          <label class="pronoun-label" for="none">I prefer not to say</label>
+          <br />
+          <br />
+        </fieldset>
+        <button class="submit" type="submit" name="submit" value="Submit">
+          Submit
+        </button>
+        <button class="reset" type="reset" name="reset" value="Reset">
+          Reset
+        </button>
+      </form>
+    </main>
+  </body>
+</html>

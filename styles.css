@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #080808;
+  --white: #fefefe;
+  --gray: #565656;
+  --light-light-gray: rgba(120, 118, 118, 0.1);
+  --light-gray: rgba(120, 118, 118, 0.5);
+
+  --teal: #006060;
+  --violetred: #a2106d;
+  --orange: #ffa500;
+}
+
+html {
+  background-color: var(--light-light-gray);
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.2em;
+  color: var(--black);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+form {
+  width: 400px;
+}
+
+/* About Me */
+.img {
+  display: block;
+  margin: 0 auto;
+  border-style: hidden;
+  border-radius: 200px;
+}
+
+.bio {
+  margin: 20px auto;
+  width: 300px;
+}
+
+.bio::first-line {
+  font-weight: bold;
+}
+
+/* Code for exercise 02-form */
+
+/* Code for exercise 03-starships */
+/*
+.btn-group {
+  margin: auto;
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 80px;
+  padding: 10px;
+  background-color: var(--black);
+  color: var(--white);
+  border-style: none;
+}
+
+.btn:hover {
+  background-color: var(--violetred);
+}
+
+.container {
+  background-color: var(--white);
+  border-radius: 15px;
+  width: 47%;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(4, 0.5fr);
+  margin: 10px 5px 10px 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 95%;
+  }
+}
+
+.container-name {
+  font-weight: bold;
+  text-align: left;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+.container-cost {
+  font-weight: bold;
+  text-align: right;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+.container-manufacturer {
+  padding: 10px 60px 10px 0px;
+  font-size: 0.8em;
+  grid-column: span 2;
+  white-space: normal;
+}
+
+.container-speed {
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+  font-size: 0.9em;
+  border-right: 1px solid var(--light-gray);
+}
+
+.container-cap {
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+  font-size: 0.9em;
+}
+
+.speed-caption {
+  text-align: center;
+  font-size: 0.8em;
+  padding: 0px 40px 0px 40px;
+  border-right: 1px solid var(--light-gray);
+}
+
+.cap-caption {
+  text-align: center;
+  font-size: 0.8em;
+  padding: 0px 40px 0px 40px;
+}
+*/

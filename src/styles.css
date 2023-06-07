@@ -28,6 +28,12 @@ html {
   }
 }
 
+@media (max-width: 800px) {
+  .container {
+    width: 95%;
+  }
+}
+
 body {
   /*font-family: "Open Sans", "Helvetica Neue", sans-serif;*/
   font-family: "Tahoma", "Helvetica", sans-serif;
@@ -175,27 +181,54 @@ form {
   width: 400px;
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 20px;
+  background-color: var(--cyprus-blue);
+  color: var(--very-light-gray);
 }
 
 .btn {
-  width: 80px;
+  width: 100px;
   padding: 10px;
+}
+
+.btn:hover {
+  background-color: var(--bittersweet);
+  color: var(--cyprus-blue);
 }
 
 .course-container {
   background-color: var(--white);
   border-radius: 30px;
   width: 400px;
+  margin: 10px 10px 10px 10px;
 }
 
 .course-row-flex-container {
   display: flex;
-  align-items: baseline;
+  margin: 5px 10px 5px 10px;
 }
 
 .number-and-title-text {
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 0;
+}
+
+.term-row-flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.term-instructor-text {
+  font-size: 1rem;
+  margin: 0 0 10px 0;
+}
+
+.descriont-flex-container {
+  display: flex;
+  justify-content: baseline;
+}
+
+.description-text {
+  font-size: 0.8rem;
+  margin: 0 10px 10px 10px;
 }

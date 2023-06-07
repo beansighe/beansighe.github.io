@@ -27,16 +27,11 @@ const createCourseListing = (course) => {
   const numberAndTitleContainer = document.createElement("div");
   numberAndTitleContainer.classList.add("course-row-flex-container");
 
-  const number = document.createElement("h2");
-  number.textContent = "CS" + course.number + " - ";
-  number.classList.add("number-and-title-text");
+  const numberTitle = document.createElement("h2");
+  numberTitle.textContent = `CS ${course.number}  ${course.title}`;
+  numberTitle.classList.add("number-and-title-text");
 
-  const name = document.createElement("p");
-  name.textContent = course.title;
-  name.classList.add("number-and-title-text");
-
-  numberAndTitleContainer.appendChild(number);
-  numberAndTitleContainer.appendChild(name);
+  numberAndTitleContainer.appendChild(numberTitle);
 
   container.appendChild(numberAndTitleContainer);
 
@@ -56,6 +51,17 @@ const createCourseListing = (course) => {
 
   container.appendChild(termAndInstructorContainer);
 
+  const descriptionContainer = document.createElement("div");
+  descriptionContainer.classList.add("description-flex-container");
+
+  const description = document.createElement("p");
+  description.textContent = course.description;
+  description.classList.add("description-text");
+
+  descriptionContainer.appendChild(description);
+
+  container.appendChild(descriptionContainer);
+
   return container;
 };
 
@@ -64,12 +70,28 @@ displayAllButton.addEventListener("click", () => {
   displayCourseList(courses);
 });
 
+let sortByTermButton = document.getElementById("filter");
+sortByTermButton.addEventListener("click", () => {
+  displayByTerm(courses);
+});
+
 const displayCourseList = (courses) => {
   clearAndReset();
   let app = document.getElementById("results");
   for (const course in courses) {
     const courseListing = createCourseListing(courses[course]);
     app.appendChild(courseListing);
+  }
+};
+
+const displayByTerm = (courses) => {
+  clearAndReset();
+  let app = document.getElementById("results");
+  for (const course in courses) {
+    if (courses[course].term === "Fall") {
+      const courseListing = createCourseListing(courses[course]);
+      app.appendChild(courseListing);
+    }
   }
 };
 

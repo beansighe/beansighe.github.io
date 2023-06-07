@@ -26,15 +26,4 @@ form.addEventListener("submit", (event) => {
   console.log("Pronouns: %s", pronouns);
   console.groupEnd();
   event.preventDefault();
-
-  /*inputs = form.getElementsByTagName("input");
-
-  for (let i = 0, len = inputs.length; i < len; ++i) {
-    if (inputs[i].value == "")
-      console.error("missing field: %s", inputs[i].name);
-  }
-  if (pronouns == null) {
-    console.error("no pronoun selection made");
-  }
-  */
 });

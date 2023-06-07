@@ -17,4 +17,5 @@
 - [ ] Navbar
   - [ ] how to create persistent element across all pages
   - [ ] alter hw2 code appropriately
-- [ ] CSS -[ ] everything
+- [ ] CSS
+  - [ ] everything

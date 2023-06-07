@@ -2,7 +2,7 @@ let main = document.querySelector("main");
 
 let headshot = document.createElement("img");
 headshot.className = "img";
-headshot.src = "../homework/images/headshot_monet.png";
+headshot.src = "images/headshot_monet.png";
 headshot.alt = "selfie of Tierney in front of Monet's house, Giverny, France.";
 
 let bio = document.createElement("p");

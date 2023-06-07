@@ -1,0 +1,112 @@
+[
+  {
+    "number": 510,
+    "title": "Natural Language Processing",
+    "term": "Fall",
+    "year": "2023",
+    "instructor": "Ameeta Agrawal",
+    "description": "n/a",
+    "grade": "tbd",
+    "category": "elective"
+  },
+  {
+    "number": 541,
+    "title": "Artificial Intelligence",
+    "term": "Fall",
+    "year": "2023",
+    "instructor": "Barton Massey",
+    "description": "Introduction to the basic concepts and techniques of artificial intelligence. Knowledge representation, problem solving, machine learning, natural language understanding, and AI search techniques.",
+    "grade": "tbd",
+    "category": "elective"
+  },
+  {
+    "number": 564,
+    "title": "Front End Web Tech",
+    "term": "Fall",
+    "year": "2023",
+    "instructor": "Caterina Paun",
+    "description": "Students will learn the languages, libraries, and frameworks needed to build user interfaces. This class will start with a review of HTML, CSS, and JavaScript, before focusing on React and the React ecosystem. Students will also work with CSS animations, gain experience with data visualization libraries, and learn about design principles and design systems. The final project is a dashboard application, which will leverage many of the topics covered in class and give students the opportunity to create a data-driven React application.",
+    "grade": "tbd",
+    "category": "elective"
+  },
+  {
+    "number": 510,
+    "title": "Music, Sound & Computers",
+    "term": "Spring",
+    "year": "2023",
+    "instructor": "Barton Massey",
+    "description": "n/a",
+    "grade": "tbd",
+    "category": "elective"
+  },
+  {
+    "number": 563,
+    "title": "Intro to Web Development",
+    "term": "Spring",
+    "year": "2023",
+    "instructor": "Caterina Paun",
+    "description": "Students will learn the fundamentals of web development, the structure and functionality of the web, and how to create responsive and accessible web applications using HTML, CSS, and JavaScript.",
+    "grade": "tbd",
+    "category": "elective"
+  },
+  {
+    "number": 596,
+    "title": "Network Security",
+    "term": "Spring",
+    "year": "2023",
+    "instructor": "D. Kevin McGrath",
+    "description": "The class will focus on network security. In order to understand the network security problem, the course will include a review of various forms of network attacks. We will then review basic techniques in applied cryptography, and then secure protocols will be covered including network-layer security and various application-layer secure protocols. We then turn to network-side security management including both passive measures like firewall defense schemes including packet filers and bastion hosts, as well as active intrusion detection and response. Finally, we will cover protocols for protecting privacy and anonymity.",
+    "grade": "tbd",
+    "category": "security"
+  },
+  {
+    "number": 585,
+    "title": "Cryptography",
+    "term": "Winter",
+    "year": "2023",
+    "instructor": "Fang Song",
+    "description": "The goal of cryptography is the encoding of information via a cryptographic system. Cryptanalysis studies the breaking of cryptosystems. This course focuses on cryptography but with respect to cryptanalysis. An overview of classical systems with an in-depth examination of modern cryptosystems. This includes block algorithms such as DES; public-key cryptosystems, such as RSA; and one-way functions. Additional topics include cryptographic protocols, signature schemes, pseudo-random number generation, Shannon's information theory, and stream ciphers.",
+    "grade": "A",
+    "category": "security"
+  },
+  {
+    "number": 554,
+    "title": "Software Engineering",
+    "term": "Winter",
+    "year": "2023",
+    "instructor": "Daniel Leblanc",
+    "description": "Current methodologies for the development of large, industrial strength software systems. Topics include requirements, specification, design, implementation, testing, project management and cost estimation, formal methods, and software process improvement.",
+    "grade": "A-",
+    "category": "elective"
+  },
+  {
+    "number": 558,
+    "title": "Programming Languages",
+    "term": "Fall",
+    "year": "2022",
+    "instructor": "Jingke Li",
+    "description": "In-depth study of current and historical issues in the design, implementation, and application of programming languages. Topics range from basic to advanced. Areas include syntax, semantics, scoping, typing, abstraction, exceptions, and concurrency. Computational paradigms such as functional, logic, and/or object oriented are analyzed. Several \"recent\" programming languages used.",
+    "grade": "A",
+    "category": "core"
+  },
+  {
+    "number": 581,
+    "title": "Theory of Computation",
+    "term": "Fall",
+    "year": "2022",
+    "instructor": "Fang Song",
+    "description": "Computability theory: study of models of computation (Turing, Church, Kleene), recursive function theory, properties of recursive, and recursively innumerable sets.",
+    "grade": "A-",
+    "category": "core"
+  },
+  {
+    "number": 591,
+    "title": "Intro to Computer Security",
+    "term": "Fall",
+    "year": "2023",
+    "instructor": "Wu-Chang Feng",
+    "description": "Provides a broad overview of computer security. Provides a solid theoretical foundation, as well as real-world examples, for understanding computer security. Fundamental theoretical results, foundational models, and salient examples will be covered. Security in computer operating systems, networks, and data will be covered, with emphasis on operating system and program security.",
+    "grade": "A",
+    "category": "security"
+  }
+]

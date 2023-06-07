@@ -70,9 +70,19 @@ displayAllButton.addEventListener("click", () => {
   displayCourseList(courses);
 });
 
-let sortByTermButton = document.getElementById("filter");
-sortByTermButton.addEventListener("click", () => {
-  displayByTerm(courses);
+let filterSecurityButton = document.getElementById("security");
+filterSecurityButton.addEventListener("click", () => {
+  displayByType(courses, "security");
+});
+
+let filterCoreButton = document.getElementById("core");
+filterCoreButton.addEventListener("click", () => {
+  displayByType(courses, "core");
+});
+
+let filterElectiveButton = document.getElementById("elective");
+filterElectiveButton.addEventListener("click", () => {
+  displayByType(courses, "elective");
 });
 
 const displayCourseList = (courses) => {
@@ -84,11 +94,11 @@ const displayCourseList = (courses) => {
   }
 };
 
-const displayByTerm = (courses) => {
+const displayByType = (courses, type) => {
   clearAndReset();
   let app = document.getElementById("results");
   for (const course in courses) {
-    if (courses[course].term === "Fall") {
+    if (courses[course].category === type) {
       const courseListing = createCourseListing(courses[course]);
       app.appendChild(courseListing);
     }

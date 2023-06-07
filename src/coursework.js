@@ -7,11 +7,8 @@ const fetchCourses = (file) => {
     .then((data) => {
       console.log(data);
       data.forEach((course) => {
-        console.log(course);
         courseArray.push(course);
       });
-      /*data.forEach((course) => {
-        courses.push(course);*/
     })
     .catch((error) => console.error(error));
   return courseArray;
